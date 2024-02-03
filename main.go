@@ -32,8 +32,23 @@ func wordplayTwo() {
 	fmt.Println("")
 }
 
+// menyebutkan sabang sebanyak 20 kali
+// tiap sabang urutan kelipatan 5 diubah menggunakan uppercase
+func wordplayThree() {
+	for i := 1; i <= 9; i++ {
+		word := "sabang"
+		if i%2 == 0 {
+			fmt.Printf("%s ", strings.ToUpper(word))
+		} else {
+			fmt.Printf("%s ", word)
+		}
+	}
+	fmt.Println("")
+}
+
 func main() {
 	fmt.Println("Selamat datang di WordPlay")
 	wordplayOne()
 	wordplayTwo()
+	wordplayThree()
 }
