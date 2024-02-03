@@ -18,12 +18,12 @@ func wordplayOne() {
 	fmt.Println("")
 }
 
-// menyebutkan bee sebanyak 9 kali
-// tiap bee urutan kelipatan 3 diubah menggunakan uppercase
+// menyebutkan factory sebanyak 9 kali
+// tiap factory urutan kelipatan 2 diubah menggunakan uppercase
 func wordplayTwo() {
 	for i := 1; i <= 9; i++ {
-		word := "bee"
-		if i%3 == 0 {
+		word := "factory"
+		if i%2 == 0 {
 			fmt.Printf("%s ", strings.ToUpper(word))
 		} else {
 			fmt.Printf("%s ", word)
