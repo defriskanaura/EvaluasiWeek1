@@ -36,7 +36,7 @@ func wordplayTwo() {
 // tiap sabang urutan kelipatan 5 diubah menggunakan uppercase
 func wordplayThree() {
 	for i := 1; i <= 9; i++ {
-		word := "sabang"
+		word := "sabang-merauke"
 		if i%2 == 0 {
 			fmt.Printf("%s ", strings.ToUpper(word))
 		} else {
