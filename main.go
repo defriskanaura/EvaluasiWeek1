@@ -5,11 +5,11 @@ import (
 	"strings"
 )
 
-// mengurutkan abjad e hingga x
+// mengurutkan abjad f hingga y
 // tiap abjad urutan kelipatan 2 diganti dengan tanda "re"
 func wordplayOne() {
-	for i := 'e'; i <= 'x'; i++ {
-		if (i-'e'+1)%2 == 0 {
+	for i := 'f'; i <= 'y'; i++ {
+		if (i-'f'+1)%2 == 0 {
 			fmt.Print("re ")
 		} else {
 			fmt.Printf("%c ", i)
@@ -36,9 +36,9 @@ func wordplayTwo() {
 // tiap sabang urutan kelipatan 5 diubah menggunakan uppercase
 func wordplayThree() {
 	for i := 1; i <= 9; i++ {
-		word := "sabang-merauke"
+		word := "SABANG-MERAUKE"
 		if i%2 == 0 {
-			fmt.Printf("%s ", strings.ToUpper(word))
+			fmt.Printf("%s ", strings.ToLower(word))
 		} else {
 			fmt.Printf("%s ", word)
 		}
