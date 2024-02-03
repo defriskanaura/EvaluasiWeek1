@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-// mengurutkan abjad a hingga z
-// tiap abjad urutan kelipatan 5 diganti dengan tanda "re"
+// mengurutkan abjad e hingga x
+// tiap abjad urutan kelipatan 2 diganti dengan tanda "re"
 func wordplayOne() {
-	for i := 'a'; i <= 'z'; i++ {
-		if (i-'a'+1)%5 == 0 {
+	for i := 'e'; i <= 'x'; i++ {
+		if (i-'e'+1)%2 == 0 {
 			fmt.Print("re ")
 		} else {
 			fmt.Printf("%c ", i)
